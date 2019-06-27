@@ -2,12 +2,12 @@ s=input()
 flag=1
 vow=['a','e','i','o','u']
 for v in vow:
-    if(a==v):
+    if(s==v):
         print("Vowel")
         flag=0
         break
 if(flag):
-    if(a>='a' and a<='z'):
+    if(s>='a' and s<='z'):
         print("Consonant")
     else:
         print("invalid")

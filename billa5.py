@@ -1,7 +1,7 @@
-n11,n12,n13=input().split()
-if(n11>n12) and (n11>n13):
-    print("n11")
-elif(n12>n13):
-        print("n12")
+b2,b3,b4=input().split()
+if b3>b4:
+   print(b3)
+elif b2>b3 and b2>b4:
+   print(b2)
 else:
-    print("n13")
+   print(b4)

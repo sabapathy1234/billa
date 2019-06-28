@@ -1,7 +1,7 @@
 N,K=map(int,input().split())
 N=0
-sum=0
+sum1=0
 while(N<=K):
-  sum=sum+N
+  sum2=sum1+N
   N=N+1
-print(sum)
+print(sum1)

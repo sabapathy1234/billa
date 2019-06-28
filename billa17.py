@@ -1,12 +1,13 @@
-num11=int(input())
-s=num11
-f=0
-while(num11>0):
-  var=num11%10
-  num1=num11//10
-  var2=var**3
-  f=f+var2
-if(s==f):
-  print("yes")
+z1=int(input())
+e=len(str(z1))
+a=z1
+b=0 
+while z1>0:
+  c=z1%10
+  z1=z1//10
+  d=c**e
+  b=b+d
+if a==b: 
+  print('yes')
 else:
-  print("no")
+  print('no')

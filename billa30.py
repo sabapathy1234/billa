@@ -1,5 +1,10 @@
-chac1vac=map(int,input().split())
-str,fin=map(int,input().split())
-huy=abs(chac1-str)
-guy=abs(vac-fin)
-print(huy,guy)
+h11,m11=map(int,input().split())
+h21,m21=map(int,input().split())
+if(h11>h21):
+    a=h11-h21
+    c=m11-m21
+    print(a,c)
+else:
+    b=h21-h11
+    d=m21-m11
+    print(b,d)

@@ -1,0 +1,5 @@
+chac1vac=map(int,input().split())
+str,fin=map(int,input().split())
+huy=abs(chac1str)
+guy=abs(vac-fin)
+print(huy,guy)
